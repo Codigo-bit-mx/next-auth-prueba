@@ -47,12 +47,12 @@ const AuthForm = () => {
                 onSubmit = {submitHandler}
             > 
                 <div>
-                    <label for="email"> Email </label>
+                    <label> Email </label>
                     <input type="email" id="email" name="email" value={email} onChange={ cambio }/>
                 </div>
 
                 <div>
-                    <label for="password"> Password </label>
+                    <label> Password </label>
                     <input type="password" id="password" name="password" value={password} onChange={ cambio }/>
                 </div>
 
